@@ -1,3 +1,7 @@
-[workspace]
-members = ["src/parser", "src/cli"]
-resolver = "2"
+[package]
+name = "accle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
