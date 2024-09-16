@@ -4,4 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+dotenvy = "*"
+anyhow = "*"
+tracing = "*"
+tracing-subscriber = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
 tokio = { version = "*", features = ["full"] }
+chrono = { version = "*", features = ["serde"] }
+postgrest = "*"
+figment = { version = "*", features = ["env"] }
+uuid = { version = "*", features = ["serde", "v4", "v7"] }
